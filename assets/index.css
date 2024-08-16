@@ -44,11 +44,14 @@ nav li{
 nav ul li a{
     color: black;
     padding: 0 15px;
+    font-size: 18px;
 }
 nav ul li a:hover{
     color: red;
-    font-size: 15px;
+    font-size: 17px;
 }
+ 
+
 .headerlogo svg:hover{
     width: 22px;
     height: auto;
@@ -59,7 +62,7 @@ nav ul li a:hover{
 }
 .side li a{
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 .side{
     display: flex;
@@ -73,11 +76,12 @@ nav ul li a:hover{
 .side li a:hover{
     color: red;
     text-decoration: underline red;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .footer{
     display: flex;
+    margin-top: 14%;
     background-color: black;
     color: white;
     justify-content: space-between;
@@ -113,3 +117,209 @@ nav ul li a:hover{
     padding-left: 455px;
 }
 
+.review{
+    background-color:rgb(255, 239, 220);
+}
+
+.testi{
+    height: 1100px;
+    width: 92%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    padding: 45px;
+}
+.t1{
+    line-height: 30px;
+    text-align: justify;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.t1 img{
+    border-radius: 10px;
+}
+.review h2{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 84px;
+}
+.review-button{
+    background-color: rgb(250, 210, 162);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+.spad{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.container{
+    max-width: 1170px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.clothing{
+    margin-left: 50%;
+    position: relative;
+}
+
+.c1{
+    position: absolute;
+    left:0px;
+    top: 140px;
+    font-size: 25px;
+}
+.c1 p{
+    font-size: 20px;
+}
+.c1 p:hover{
+    color: red;
+    text-decoration: overline;
+    cursor: pointer;
+}
+.c2{
+    margin-left:20% ;
+}
+
+.shoes{
+    margin-left: 5%;
+    margin-top: -5%;
+    position: relative;
+}
+
+.s1{
+    position: absolute;
+    left:90px;
+    top: 440px;
+    font-size: 25px;
+}
+.s1 p{
+    font-size: 20px;
+}
+.s1 p:hover{
+    color: red;
+    text-decoration: overline;
+    cursor: pointer;
+}
+.s2{
+    margin-left:20% ;
+}
+
+.accessories{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 9%;
+}
+
+.d1{
+    position: absolute;
+    left:30px;
+    top: 40px;
+    font-size: 25px;
+}
+.d1 p{
+    font-size: 20px;
+    color: black;
+}
+
+.d1 p:hover{
+    color: red;
+    text-decoration: overline;
+    cursor: pointer;
+}
+.d2{
+    margin-left:20% ;
+}
+.seller{
+    padding: 5px;
+}
+
+.seller-main{
+    height: 1900px;
+    width: 78%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    margin-bottom: 60px;
+    margin-left: 10.5%;
+    padding: 10px;
+}
+.arrival{
+    padding: 8px;
+}
+.arrival h4:hover{
+    color: red;
+    cursor: pointer;
+}
+.arrival img:hover{
+    width: 255px;
+    height: auto;
+    cursor: pointer;
+}
+
+.hero{
+    position: relative;
+}
+.hero div{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    line-height: 30px;
+}
+
+.hero div p{
+    font-size: 17px;
+    line-height: 30px;
+    padding: 35px 0;
+}
+.hero div h1{
+    font-size: 42px;
+    line-height: 55px;
+}
+.hero img{
+    width: 100%;
+}
+.shop-button{
+    width: 165px;
+    height: 45px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: cursive;
+}
+.shop-button:hover{
+    cursor: pointer;
+}
+
+.disclaimer{
+    position: relative;
+    margin: 15% 0;
+}
+.disclaimer div{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    line-height: 30px;
+}
+.disclaimer img{
+    width: 100%;
+}
+
+.disclaimer div h2{
+    padding: 10px 0;
+    padding-bottom: 50px;
+}
