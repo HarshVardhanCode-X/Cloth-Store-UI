@@ -1,0 +1,115 @@
+*{
+    font-family: "Roboto Mono", monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    display: flex;
+    padding: 14px 100px;
+    justify-content: space-between;
+}
+.a1, .a2{
+    color: white;
+    padding: 0 8px;
+}
+
+
+.header{
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 0px 89px;
+    padding-top: 50px;
+}
+.logo{
+    height: 23px;
+    width: 193px;
+}
+.nav{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    padding: 0 15px;
+}
+nav ul li a:hover{
+    color: red;
+    font-size: 15px;
+}
+.headerlogo svg:hover{
+    width: 22px;
+    height: auto;
+}
+
+.headerlogo{
+    padding: 0 10px;
+}
+.side li a{
+    color: black;
+    font-size: 20px;
+}
+.side{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 70px 300px;
+}
+.side li{
+    list-style: none;
+}
+.side li a:hover{
+    color: red;
+    text-decoration: underline red;
+    font-size: 22px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 500px;
+    padding: 20px 40px;
+}
+.f1 , .f2, .f3{
+    padding: 20px 100px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.f11{
+    padding-top: 25px;
+}
+.f2 li{
+    padding-top: 10px;
+    list-style: none;
+}
+
+.f2 li a{
+    color:grey;
+}
+.f3 p, .f3 input{
+    padding-top: 25px;
+}
+
+.ultrafoot{
+    background-color: black;
+    color: gray;
+    text-decoration: overline;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-left: 455px;
+}
+
