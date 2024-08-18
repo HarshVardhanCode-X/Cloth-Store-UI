@@ -9,6 +9,10 @@ a{
     text-decoration: none;
 }
 
+header{
+   width: 100%; 
+}
+
 .head{
     font-size: 15px;
     color: white;
@@ -27,9 +31,9 @@ a{
     display: flex;
     height: 130px;
     justify-content: space-between;
-    padding: 5px 10px;
-    margin: 0px 89px;
-    padding-top: 50px;
+    padding: 2.7%;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
 }
 .logo{
     height: 23px;
@@ -60,15 +64,18 @@ nav ul li a:hover{
 .headerlogo{
     padding: 0 10px;
 }
+.sidebar{
+    width: 100%;
+}
+
 .side li a{
     color: black;
     font-size: 25px;
 }
 .side{
     display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    margin: 70px 300px;
+    justify-content: space-around;
+    padding: 100px 12%;
 }
 .side li{
     list-style: none;
@@ -79,109 +86,146 @@ nav ul li a:hover{
     font-size: 24px;
 }
 
-.footer{
-    display: flex;
-    margin-top: 14%;
+footer{
+    width: 100%;
     background-color: black;
-    color: white;
-    justify-content: space-between;
-    height: 500px;
-    padding: 20px 40px;
-}
-.f1 , .f2, .f3{
-    padding: 20px 100px;
-    line-height: 30px;
-    margin-top: 30px;
-}
-.f11{
-    padding-top: 25px;
-}
-.f2 li{
-    padding-top: 10px;
-    list-style: none;
 }
 
-.f2 li a{
-    color:grey;
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-items: space-around;
+    line-height: 40px;
+    padding: 10%;
+    color: white;
 }
-.f3 p, .f3 input{
-    padding-top: 25px;
+
+.f2 ul li{
+    list-style: none;
+}
+.f2 ul li a{
+    color: gray;
+}
+.f1 .f11{
+    padding-top: 6%;
+}
+.f3 h3{
+    padding-bottom: 2%;
+
 }
 
 .ultrafoot{
-    background-color: black;
     color: gray;
+    width: 100%;
+    display: grid;
+    justify-items: center;
     text-decoration: overline;
-    font-size: 15px;
-    padding-bottom: 15px;
-    padding-left: 455px;
+    padding: 1%;
 }
 
 .review{
-    background-color:rgb(255, 239, 220);
+    background-color:white;
+    width: 100%;
 }
 
 .testi{
-    height: 1100px;
-    width: 92%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
-    row-gap: 25px;
-    margin-bottom: 60px;
-    margin-left: 60px;
-    padding: 45px;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+    padding: 5% 15%;
 }
 .t1{
     line-height: 30px;
     text-align: justify;
-    border: 1px solid gray;
+    border: 1px solid rgb(221, 191, 191);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
 }
 .t1 img{
     border-radius: 10px;
+    width: 100%;
 }
 .review h2{
-    padding: 20px;
-    margin: 20px;
-    margin-left: 84px;
+    padding: 2%;
+    text-align: center;
+    font-size: 32px;
 }
 .review-button{
-    background-color: rgb(250, 210, 162);
+    background-color: black;
     border: none;
     border-radius: 5px;
-    width: 200px;
-    height: 30px;
     font-size: 15px;
-    margin-left: 105px;
+    height: 40px;
+    width: 170px;
+    color: white;
     cursor: pointer;
+    font-family: cursive;
+}
+.container-button{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
 }
 
-.spad{
-    padding-top: 100px;
-    padding-bottom: 50px;
+.grider{
+    width: 100%;
+    padding: 7%;
 }
-.container{
-    max-width: 1170px;
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+.shoes{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    padding-top: 45%;
+    padding-left:27% ;
 }
 .clothing{
-    margin-left: 50%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 52%;
+}
+.accessories{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 55%;
+    padding-top: 5%;
+}
+
+.clothing{
     position: relative;
 }
 
 .c1{
     position: absolute;
-    left:0px;
-    top: 140px;
+    top: 24%;
+    left: 35%;
     font-size: 25px;
 }
+
+.accessories{
+    position: relative;
+}
+
+.s1{
+    position: absolute;
+    top: 45%;
+    left: 43.5%;
+}
+
+
 .c1 p{
     font-size: 20px;
 }
@@ -190,20 +234,8 @@ nav ul li a:hover{
     text-decoration: overline;
     cursor: pointer;
 }
-.c2{
-    margin-left:20% ;
-}
-
-.shoes{
-    margin-left: 5%;
-    margin-top: -5%;
-    position: relative;
-}
 
 .s1{
-    position: absolute;
-    left:90px;
-    top: 440px;
     font-size: 25px;
 }
 .s1 p{
@@ -214,20 +246,8 @@ nav ul li a:hover{
     text-decoration: overline;
     cursor: pointer;
 }
-.s2{
-    margin-left:20% ;
-}
-
-.accessories{
-    position: relative;
-    margin-top: 10%;
-    margin-left: 9%;
-}
 
 .d1{
-    position: absolute;
-    left:30px;
-    top: 40px;
     font-size: 25px;
 }
 .d1 p{
@@ -240,27 +260,24 @@ nav ul li a:hover{
     text-decoration: overline;
     cursor: pointer;
 }
-.d2{
-    margin-left:20% ;
-}
+
 .seller{
     padding: 5px;
+    width: 100%;
+    padding: 0 14%;
 }
 
 .seller-main{
-    height: 1900px;
-    width: 78%;
+    width: 100%;
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 40px;
-    margin-bottom: 60px;
-    margin-left: 10.5%;
     padding: 10px;
 }
-.arrival{
-    padding: 8px;
-}
+
 .arrival h4:hover{
     color: red;
     cursor: pointer;
@@ -273,6 +290,7 @@ nav ul li a:hover{
 
 .hero{
     position: relative;
+    width: 100%;
 }
 .hero div{
     position: absolute;
@@ -307,12 +325,13 @@ nav ul li a:hover{
 
 .disclaimer{
     position: relative;
-    margin: 15% 0;
+    width: 100%;
+    padding: 10% 0;
 }
 .disclaimer div{
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 31%;
+    left: 18%;
     line-height: 30px;
 }
 .disclaimer img{
@@ -323,3 +342,4 @@ nav ul li a:hover{
     padding: 10px 0;
     padding-bottom: 50px;
 }
+
