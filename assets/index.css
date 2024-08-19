@@ -220,9 +220,9 @@ footer{
     left: -215px;
 }
 
-@media all and (max-width: 1400px) {
+@media all and (max-width: 2600px) {
     .phat {
-      margin-left: 10%;
+      margin-left: 12%;
     }
   }
 
