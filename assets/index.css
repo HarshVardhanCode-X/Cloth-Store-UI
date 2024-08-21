@@ -463,6 +463,9 @@ footer{
         row-gap: 14px;
         padding: 4px;
     }
+    .arrival h4, .arrival h3, .arrival p{
+        font-size: 11px;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 979px) {
@@ -483,6 +486,9 @@ footer{
         row-gap: 20px;
         padding: 6px;
     }
+    .arrival h4, .arrival h3, .arrival p{
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 980px) and (max-width: 1450px) {
@@ -502,6 +508,9 @@ footer{
         column-gap: 11px;
         row-gap: 30px;
         padding: 8px;
+    }
+    .arrival h4, .arrival h3, .arrival p{
+        font-size: 15px;
     }
 }
 
@@ -530,10 +539,35 @@ footer{
         text-decoration: underline red;
         font-size: 19px;
     }
+    
 }
 
 /* About */
-@media all and (max-width: 800px) {
+@media all and (max-width: 500px) {
+    .disclaimer{
+        position: relative;
+        width: 100%;
+        padding: 2% 0;
+    }
+    .disclaimer div{
+        position: absolute;
+        top: 14%;
+        left: 7%;
+        line-height: 14px;
+        font-size: 7px;
+    }
+    .disclaimer img{
+        width: 100%;
+    }
+
+    .disclaimer div h2{
+        padding: 2px 0;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 501px) and (max-width: 800px) {
     .disclaimer{
         position: relative;
         width: 100%;
@@ -541,10 +575,10 @@ footer{
     }
     .disclaimer div{
         position: absolute;
-        top: 17%;
-        left: 8%;
+        top: 15%;
+        left: 7%;
         line-height: 14px;
-        font-size: 9px;
+        font-size: 8px;
     }
     .disclaimer img{
         width: 100%;
@@ -552,7 +586,7 @@ footer{
 
     .disclaimer div h2{
         padding: 3px 0;
-        padding-bottom: 25px;
+        padding-bottom: 23px;
     }
 }
 
@@ -611,7 +645,7 @@ footer{
     .review h2{
         padding: 1%;
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
     }
     .review-button{
         background-color: black;
@@ -623,6 +657,16 @@ footer{
         color: white;
         cursor: pointer;
         font-family: cursive;
+    }
+    .t1 svg{
+        width: 17px;
+        height: 17px;
+    }
+    .t1 h4{
+        font-size: 12px;
+    }
+    .t1 p{
+        font-size: 12px;
     }
 }
 
@@ -648,11 +692,12 @@ footer{
     .t1 img{
         border-radius: 10px;
         width: 100%;
+        
     }
     .review h2{
         padding: 1%;
         text-align: center;
-        font-size: 28px;
+        font-size: 27px;
     }
     .review-button{
         background-color: black;
@@ -664,6 +709,16 @@ footer{
         color: white;
         cursor: pointer;
         font-family: cursive;
+    }
+    .t1 svg{
+        width: 20px;
+        height: 20px;
+    }
+    .t1 h4{
+        font-size: 15px;
+    }
+    .t1 p{
+        font-size: 14px;
     }
 }
 
@@ -779,7 +834,7 @@ footer{
 @media all and (max-width: 900px) {
     .hero div{
         position: absolute;
-        top: 8.5%;
+        top: 8%;
         left: 10%;
         line-height: 10px;
     }
@@ -867,5 +922,218 @@ footer{
         background-color: black;
         font-size: 10px;
         font-family: cursive;
+    }
+}
+
+
+/* Header */
+
+@media all and (max-width: 600px) {
+
+    .head{
+        font-size: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, .8);
+        display: flex;
+        padding: 9px 20px;
+        justify-content: space-between;
+    }
+    .a1, .a2{
+        color: white;
+        padding: 0 4px;
+    }
+
+    .header{
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        padding: 1.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgba(255, 255, 255, .9);
+    }
+    .headerlogo{
+        width: 1px;
+        height: 1px;
+    }
+
+    .logo{
+        width: 77px;
+        height: 12px;
+    }
+    .nav{
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav ul li a{
+        color: black;
+        padding: 0 7px;
+        font-size: 8px;
+    }
+    nav ul li a:hover{
+        color: red;
+        font-size: 9px;
+    }
+    
+
+    .headerlogo svg:hover{
+        width: 9px;
+        height: auto;
+    }
+
+    .headerlogo{
+        padding: 0 7px;
+    }
+
+ }
+
+
+
+ @media (min-width: 601) and (max-width: 1000px) {
+
+    .head{
+        font-size: 13px;
+        color: white;
+        background-color: rgba(0, 0, 0, .8);
+        display: flex;
+        padding: 11px 23px;
+        justify-content: space-between;
+    }
+    .a1, .a2{
+        color: white;
+        padding: 0 6px;
+    }
+
+    .header{
+        display: flex;
+        height: 90px;
+        justify-content: space-between;
+        padding: 2.5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: rgba(255, 255, 255, .9);
+    }
+    .headerlogo{
+        width: 2px;
+        height: 2px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 15px;
+    }
+    .nav{
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav ul li a{
+        color: black;
+        padding: 0 9px;
+        font-size: 10px;
+    }
+    nav ul li a:hover{
+        color: red;
+        font-size: 10px;
+    }
+    
+
+    .headerlogo svg:hover{
+        width: 10px;
+        height: auto;
+    }
+
+    .headerlogo{
+        padding: 0 9px;
+    }
+ }
+
+
+ /* 3 Images */
+
+
+@media all and (max-width: 700px) {
+    .grider{
+        width: 100%;
+        padding: 3% 0;
+    }
+
+
+    .phat{
+        max-width: 400px;
+        margin-left: 5%;
+    }
+
+
+    .grid{
+        display: flex;
+    }
+    .clothing{
+        margin-left: 20%;
+        position: relative;
+    }
+    .c1{
+        position: absolute;
+        left: -100px;
+        top: 50px;
+    }
+    .shoes{
+        position: relative;
+        margin-top: -30px;
+    }
+    .accessories{
+        position: relative;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+    .s1{
+        position: absolute;
+        top: 50px;
+        left: -90px;
+    }
+    .c1{
+        font-size: 17px;
+    }
+
+    .c1 p{
+        font-size: 12px;
+    }
+    .c1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+
+    .s1{
+        font-size: 17px;
+    }
+    .s1 p{
+        font-size: 12px;
+    }
+    .s1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+
+    .d1{
+        font-size: 17px;
+    }
+    .d1 p{
+        font-size: 12px;
+        color: black;
+    }
+
+    .d1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    .s2{
+        width:200px;
+        height:250px;
     }
 }
