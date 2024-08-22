@@ -469,7 +469,7 @@ footer{
 
     .side li a{
         color: black;
-        font-size: 18px;
+        font-size: 17px;
     }
     .side{
         display: flex;
@@ -478,11 +478,12 @@ footer{
     }
     .side li{
         list-style: none;
+        padding: 0 4px;
     }
     .side li a:hover{
         color: red;
         text-decoration: underline red;
-        font-size: 19px;
+        font-size: 18px;
     }
     
 }
@@ -920,7 +921,105 @@ footer{
 
  /* 3 Images */
 
- @media all and (max-width: 1000px) {
+ @media all and (max-width: 499px) {
+    
+    .grider{
+        width: 100%;
+        padding: 8% 0;
+    }
+    
+    .c2 img{
+        width: 150px;
+        height: auto;
+    }
+    .d2 img{
+        width: 160px;
+        height: auto;
+    }
+    .s2 img{
+        width: 170px;
+        height: auto;
+    }
+    .grid{
+        display:grid;
+        width: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .clothing{
+        position: relative;
+    }
+    .c1{
+        position: absolute;
+        left: -140px;
+        top: 35px;
+    }
+    .accessories{
+        position: relative;
+    }
+    .s2{
+        position: absolute;
+        top: -90px;
+        right: 0px;
+    }
+    .s1{
+        position: absolute;
+        left: 25px;
+        top: 8px;
+        z-index: 1;
+    }
+    .shoes{
+        position: relative;
+        top: 25px;
+        left: -14px;
+    }
+
+
+    .c1{
+        font-size: 12px;
+    }
+    
+    .c1 p{
+        font-size: 8px;
+    }
+    .c1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .s1{
+        font-size: 12px;
+    }
+    .s1 p{
+        font-size: 8px;
+    }
+    .s1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .d1{
+        font-size: 12px;
+    }
+    .d1 p{
+        font-size: 8px;
+        color: black;
+    }
+    
+    .d1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+ @media (min-width: 500px) and (max-width: 1000px) {
     
     .grider{
         width: 100%;
@@ -942,7 +1041,7 @@ footer{
     
     .phat{
         max-width: 700px;
-        margin-left: 5%;
+        margin-left: 9%;
     }
     
     .grid{
@@ -967,7 +1066,7 @@ footer{
     .accessories{
         position: relative;
         margin-left: 18%;
-        margin-top: 6%;
+        margin-top: 8%;
     }
     .s1{
         position: absolute;
