@@ -497,10 +497,10 @@ footer{
     }
     .disclaimer div{
         position: absolute;
-        top: 14%;
+        top: 12%;
         left: 7%;
-        line-height: 14px;
-        font-size: 7px;
+        line-height: 12px;
+        font-size: 6.5px;
     }
     .disclaimer img{
         width: 100%;
