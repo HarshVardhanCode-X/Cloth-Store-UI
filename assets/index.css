@@ -184,6 +184,18 @@ footer{
     padding: 9% 0;
 }
 
+.c2 img{
+    width: 460px;
+    height: auto;
+}
+.d2 img{
+    width: 470px;
+    height: auto;
+}
+.s2 img{
+    width: 480px;
+    height: auto;
+}
 
 .phat{
     max-width: 1170px;
@@ -219,73 +231,6 @@ footer{
     top: 140px;
     left: -215px;
 }
-
-
-
-
-/* .grid{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
-.shoes{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end:2 ;
-    padding-top: 45%;
-    padding-left:27% ;
-}
-.clothing{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding-left: 52%;
-}
-.accessories{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding-left: 55%;
-    padding-top: 5%;
-}
-
-.grid p{
-    display: block;
-    width: 100px;
-}
-
-.clothing{
-    position: relative;
-}
-
-.c1{
-    position: absolute;
-    top: 24%;
-    left: 35%;
-    z-index: 9;
-}
-
-.accessories{
-    position: relative;
-}
-
-.s1{
-    position: absolute;
-    top: 45%;
-    left: 43.5%;
-    z-index: 9;
-}
-
-.shoes{
-    position: relative;
-}
-
-.s1{
-    position: absolute;
-    z-index: 9;
-} */
 
 .c1{
     font-size: 25px;
@@ -831,7 +776,38 @@ footer{
 
 /* Cover Image */
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 500px) {
+    .hero div{
+        position: absolute;
+        top: 6%;
+        left: 8%;
+        line-height: 8px;
+    }
+
+    .hero div p{
+        font-size: 6px;
+        line-height: 8px;
+        padding: 12px 0;
+    }
+    .hero div h1{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .hero img{
+        width: 100%;
+    }
+    .shop-button{
+        width: 60px;
+        height: 12px;
+        color: white;
+        background-color: black;
+        font-size: 4px;
+        font-family: cursive;
+    }
+}
+
+
+@media (min-width:501px) and (max-width: 900px) {
     .hero div{
         position: absolute;
         top: 8%;
@@ -930,62 +906,7 @@ footer{
 
 @media all and (max-width: 600px) {
 
-    .head{
-        font-size: 10px;
-        color: white;
-        background-color: rgba(0, 0, 0, .8);
-        display: flex;
-        padding: 9px 20px;
-        justify-content: space-between;
-    }
-    .a1, .a2{
-        color: white;
-        padding: 0 4px;
-    }
-
-    .header{
-        display: flex;
-        height: 50px;
-        justify-content: space-between;
-        padding: 1.5%;
-        padding-left: 2%;
-        padding-right: 2%;
-        background-color: rgba(255, 255, 255, .9);
-    }
-    .headerlogo{
-        width: 1px;
-        height: 1px;
-    }
-
-    .logo{
-        width: 77px;
-        height: 12px;
-    }
-    .nav{
-        list-style: none;
-    }
-    nav li{
-        display: inline-block;
-    }
-    nav ul li a{
-        color: black;
-        padding: 0 7px;
-        font-size: 8px;
-    }
-    nav ul li a:hover{
-        color: red;
-        font-size: 9px;
-    }
     
-
-    .headerlogo svg:hover{
-        width: 9px;
-        height: auto;
-    }
-
-    .headerlogo{
-        padding: 0 7px;
-    }
 
  }
 
@@ -993,147 +914,398 @@ footer{
 
  @media (min-width: 601) and (max-width: 1000px) {
 
-    .head{
-        font-size: 13px;
-        color: white;
-        background-color: rgba(0, 0, 0, .8);
-        display: flex;
-        padding: 11px 23px;
-        justify-content: space-between;
-    }
-    .a1, .a2{
-        color: white;
-        padding: 0 6px;
-    }
-
-    .header{
-        display: flex;
-        height: 90px;
-        justify-content: space-between;
-        padding: 2.5%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: rgba(255, 255, 255, .9);
-    }
-    .headerlogo{
-        width: 2px;
-        height: 2px;
-    }
-
-    .logo{
-        width: 100px;
-        height: 15px;
-    }
-    .nav{
-        list-style: none;
-    }
-    nav li{
-        display: inline-block;
-    }
-    nav ul li a{
-        color: black;
-        padding: 0 9px;
-        font-size: 10px;
-    }
-    nav ul li a:hover{
-        color: red;
-        font-size: 10px;
-    }
     
-
-    .headerlogo svg:hover{
-        width: 10px;
-        height: auto;
-    }
-
-    .headerlogo{
-        padding: 0 9px;
-    }
  }
 
 
  /* 3 Images */
 
-
-@media all and (max-width: 700px) {
+ @media all and (max-width: 1000px) {
+    
     .grider{
         width: 100%;
-        padding: 3% 0;
+        padding: 2% 0;
     }
-
-
+    
+    .c2 img{
+        width: 250px;
+        height: auto;
+    }
+    .d2 img{
+        width: 260px;
+        height: auto;
+    }
+    .s2 img{
+        width: 270px;
+        height: auto;
+    }
+    
     .phat{
         max-width: 400px;
         margin-left: 5%;
     }
-
-
+    
+    
     .grid{
         display: flex;
+        margin: 0 -3px;
     }
     .clothing{
-        margin-left: 20%;
+        margin-left: 53%;
         position: relative;
     }
     .c1{
         position: absolute;
-        left: -100px;
-        top: 50px;
+        left: -180px;
+        top: 78px;
     }
     .shoes{
         position: relative;
-        margin-top: -30px;
+        margin-top: -50px;
+        margin-left: 15%;
     }
     .accessories{
         position: relative;
-        margin-left: 10%;
-        margin-top: 4%;
+        margin-left: 15%;
+        margin-top: 6%;
     }
     .s1{
         position: absolute;
-        top: 50px;
-        left: -90px;
+        top: 100px;
+        left: -132px;
     }
+    
     .c1{
-        font-size: 17px;
-    }
-
-    .c1 p{
         font-size: 12px;
+    }
+    
+    .c1 p{
+        font-size: 8px;
     }
     .c1 p:hover{
         color: red;
         text-decoration: overline;
         cursor: pointer;
     }
-
+    
     .s1{
-        font-size: 17px;
+        font-size: 12px;
     }
     .s1 p{
-        font-size: 12px;
+        font-size: 8px;
     }
     .s1 p:hover{
         color: red;
         text-decoration: overline;
         cursor: pointer;
     }
-
+    
     .d1{
-        font-size: 17px;
+        font-size: 12px;
     }
     .d1 p{
-        font-size: 12px;
+        font-size: 8px;
         color: black;
     }
-
+    
     .d1 p:hover{
         color: red;
         text-decoration: overline;
         cursor: pointer;
     }
-    .s2{
-        width:200px;
-        height:250px;
+}
+
+
+
+
+ @media (min-width: 1001px) and (max-width: 1149px) {
+    
+    .grider{
+        width: 100%;
+        padding: 4% 0;
+    }
+    
+    .c2 img{
+        width: 250px;
+        height: auto;
+    }
+    .d2 img{
+        width: 260px;
+        height: auto;
+    }
+    .s2 img{
+        width: 270px;
+        height: auto;
+    }
+    
+    .phat{
+        max-width: 900px;
+        margin-left: 7%;
+    }
+    
+    
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -6px;
+    }
+    .clothing{
+        margin-left: 53%;
+        position: relative;
+    }
+    .c1{
+        position: absolute;
+        left: -180px;
+        top: 78px;
+    }
+    .shoes{
+        position: relative;
+        margin-top: -50px;
+        margin-left: 15%;
+    }
+    .accessories{
+        position: relative;
+        margin-left: 15%;
+        margin-top: 6%;
+    }
+    .s1{
+        position: absolute;
+        top: 100px;
+        left: -132px;
+    }
+    
+    .c1{
+        font-size: 15px;
+    }
+    
+    .c1 p{
+        font-size: 11px;
+    }
+    .c1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .s1{
+        font-size: 15px;
+    }
+    .s1 p{
+        font-size: 11px;
+    }
+    .s1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .d1{
+        font-size: 15px;
+    }
+    .d1 p{
+        font-size: 11px;
+        color: black;
+    }
+    
+    .d1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+}
+
+
+
+ @media (min-width: 1150px) and (max-width: 1329px) {
+    
+    .grider{
+        width: 100%;
+        padding: 5% 0;
+    }
+    
+    .c2 img{
+        width: 280px;
+        height: auto;
+    }
+    .d2 img{
+        width: 290px;
+        height: auto;
+    }
+    .s2 img{
+        width: 300px;
+        height: auto;
+    }
+    
+    .phat{
+        max-width: 950px;
+        margin-left: 10%;
+    }
+    
+    
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -8px;
+    }
+    .clothing{
+        margin-left: 53%;
+        position: relative;
+    }
+    .c1{
+        position: absolute;
+        left: -220px;
+        top: 80px;
+    }
+    .shoes{
+        position: relative;
+        margin-top: -50px;
+        margin-left: 12%;
+    }
+    .accessories{
+        position: relative;
+        margin-left: 19%;
+        margin-top: 6%;
+    }
+    .s1{
+        position: absolute;
+        top: 135px;
+        left: -175px;
+    }
+    
+    .c1{
+        font-size: 18px;
+    }
+    
+    .c1 p{
+        font-size: 13px;
+    }
+    .c1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .s1{
+        font-size: 18px;
+    }
+    .s1 p{
+        font-size: 13px;
+    }
+    .s1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .d1{
+        font-size: 18px;
+    }
+    .d1 p{
+        font-size: 13px;
+        color: black;
+    }
+    
+    .d1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+}
+
+
+
+@media (min-width: 1330px) and (max-width: 1455px) {
+    
+    .grider{
+        width: 100%;
+        padding: 7% 0;
+    }
+    
+    .c2 img{
+        width: 360px;
+        height: auto;
+    }
+    .d2 img{
+        width: 370px;
+        height: auto;
+    }
+    .s2 img{
+        width: 380px;
+        height: auto;
+    }
+    
+    .phat{
+        max-width: 1050px;
+        margin-left: 15%;
+    }
+    
+    
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    .clothing{
+        margin-left: 48%;
+        position: relative;
+    }
+    .c1{
+        position: absolute;
+        left: -250px;
+        top: 100px;
+    }
+    .shoes{
+        position: relative;
+        margin-top: -60px;
+        margin-left: 4%;
+    }
+    .accessories{
+        position: relative;
+        margin-left: 17%;
+        margin-top: 8%;
+    }
+    .s1{
+        position: absolute;
+        top: 135px;
+        left: -175px;
+    }
+    
+    .c1{
+        font-size: 22px;
+    }
+    
+    .c1 p{
+        font-size: 16px;
+    }
+    .c1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .s1{
+        font-size: 22px;
+    }
+    .s1 p{
+        font-size: 16px;
+    }
+    .s1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
+    }
+    
+    .d1{
+        font-size: 22px;
+    }
+    .d1 p{
+        font-size: 16px;
+        color: black;
+    }
+    
+    .d1 p:hover{
+        color: red;
+        text-decoration: overline;
+        cursor: pointer;
     }
 }
