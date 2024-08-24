@@ -471,7 +471,7 @@ footer{
 
     .side li a{
         color: black;
-        font-size: 15px;
+        font-size: 13px;
     }
     .side{
         display: flex;
@@ -485,7 +485,7 @@ footer{
     .side li a:hover{
         color: red;
         text-decoration: underline red;
-        font-size: 16px;
+        font-size: 13.5px;
     }
     
 }
@@ -786,8 +786,8 @@ footer{
 @media all and (max-width: 500px) {
     .hero div{
         position: absolute;
-        top: 6%;
-        left: 8%;
+        top: 5.5%;
+        left: 7.5%;
         line-height: 8px;
     }
 
@@ -801,7 +801,7 @@ footer{
         padding: 12px 0;
     }
     .hero div h1{
-        font-size: 19px;
+        font-size: 18px;
         line-height: 22px;
     }
     .hero img{
@@ -920,7 +920,7 @@ footer{
         flex-direction: row;
         padding: 10px 20px;
         text-align: center;
-        font-size: 8px;
+        font-size: 7px;
         color: white;
         background-color: rgba(0, 0, 0, .8);
         justify-content: space-between;
