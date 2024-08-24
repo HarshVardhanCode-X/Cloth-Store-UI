@@ -905,16 +905,246 @@ footer{
 
 /* Header */
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 640px) {
 
+    .head{
+        font-size: 6px;
+        color: white;
+        background-color: rgba(0, 0, 0, .8);
+        display: flex;
+        padding: 8px 65px;
+        justify-content: space-between;
+    }
+    .a1, .a2{
+        color: white;
+        padding: 0 8px;
+    }
     
-
+    .header{
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        padding: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: rgba(255, 255, 255, .9);
+    }
+    .logo{
+        width: 65px;
+        height: 9px;
+    }
+    .nav{
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav ul li a{
+        color: black;
+        padding: 0 15px;
+        font-size: 11px;
+    }
+    nav ul li a:hover{
+        color: red;
+        font-size: 8px;
+    }
+    .header div a svg{
+        width: 11px;
+        height: 11px;
+    }
+    
+    .headerlogo svg:hover{
+        width: 10px;
+        height: auto;
+    }
+    
+    .headerlogo{
+        padding: 0 10px;
+    }
+    
  }
 
 
 
- @media (min-width: 601) and (max-width: 1000px) {
+@media (min-width: 641px) and (max-width: 730px) {
 
+    .head{
+        font-size: 8px;
+        color: white;
+        background-color: rgba(0, 0, 0, .8);
+        display: flex;
+        padding: 8px 75px;
+        justify-content: space-between;
+    }
+    .a1, .a2{
+        color: white;
+        padding: 0 8px;
+    }
+    
+    .header{
+        display: flex;
+        height: 40px;
+        justify-content: space-between;
+        padding: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: rgba(255, 255, 255, .9);
+    }
+    .logo{
+        width: 85px;
+        height: 10px;
+    }
+    .nav{
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav ul li a{
+        color: black;
+        padding: 0 15px;
+        font-size: 11px;
+    }
+    nav ul li a:hover{
+        color: red;
+        font-size: 10px;
+    }
+    .header div a svg{
+        width: 14px;
+        height: 14px;
+    }
+    
+    .headerlogo svg:hover{
+        width: 13px;
+        height: auto;
+    }
+    
+    .headerlogo{
+        padding: 0 10px;
+    }
+    
+ }
+
+
+
+@media (min-width: 731px) and (max-width: 899px) {
+
+    .head{
+        font-size: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, .8);
+        display: flex;
+        padding: 9px 65px;
+        justify-content: space-between;
+    }
+    .a1, .a2{
+        color: white;
+        padding: 0 8px;
+    }
+    
+    .header{
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        padding: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: rgba(255, 255, 255, .9);
+    }
+    .logo{
+        width: 115px;
+        height: 13px;
+    }
+    .nav{
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav ul li a{
+        color: black;
+        padding: 0 15px;
+        font-size: 13px;
+    }
+    nav ul li a:hover{
+        color: red;
+        font-size: 12px;
+    }
+    .header div a svg{
+        width: 17px;
+        height: 17px;
+    }
+    
+    .headerlogo svg:hover{
+        width: 16px;
+        height: auto;
+    }
+    
+    .headerlogo{
+        padding: 0 10px;
+    }
+    
+ }
+
+
+
+
+ @media (min-width:900px) and (max-width: 1200px) {
+
+    .head{
+        font-size: 12px;
+        color: white;
+        background-color: rgba(0, 0, 0, .8);
+        display: flex;
+        padding: 11px 85px;
+        justify-content: space-between;
+    }
+    .a1, .a2{
+        color: white;
+        padding: 0 8px;
+    }
+    
+    .header{
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        padding: 2.2%;
+        padding-left: 4.7%;
+        padding-right: 4.7%;
+        background-color: rgba(255, 255, 255, .9);
+    }
+    .logo{
+        width: 150px;
+        height: 20px;
+    }
+    .nav{
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav ul li a{
+        color: black;
+        padding: 0 15px;
+        font-size: 15px;
+    }
+    nav ul li a:hover{
+        color: red;
+        font-size: 14px;
+    }
+    .header div a svg{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .headerlogo svg:hover{
+        width: 19px;
+        height: auto;
+    }
+    
+    .headerlogo{
+        padding: 0 10px;
+    }
     
  }
 
