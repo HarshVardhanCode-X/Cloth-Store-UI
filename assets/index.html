@@ -24,6 +24,7 @@
         </div>
         <div class="header">
             <img class="logo" src="https://themewagon.github.io/malefashion/img/logo.png">
+            <button class="menu-toggle"></button> <!-- Menu toggle button -->
             <nav>
                 <ul class="nav">
                     <li><a href="index.html">Home</a></li>
@@ -40,6 +41,12 @@
             </div>
         </div>
     </header>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active'); // Toggle active class for the menu icon
+            document.querySelector('.nav').classList.toggle('active'); // Show/Hide navigation menu
+        });
+    </script>
 
 <!-- hero image 1 -->
     <section class="hero">

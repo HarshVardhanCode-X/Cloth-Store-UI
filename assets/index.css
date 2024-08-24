@@ -1,27 +1,24 @@
-*{
+* {
     font-family: "Roboto Mono", monospace;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header{
-   width: 100%; 
-}
-header{
-    position:sticky;
+header {
+    width: 100%;
+    position: sticky;
     z-index: 10;
     top: 0;
     left: 0;
     right: 0;
 }
 
-
-.head{
+.head {
     font-size: 15px;
     color: white;
     background-color: rgba(0, 0, 0, .8);
@@ -29,12 +26,13 @@ header{
     padding: 14px 100px;
     justify-content: space-between;
 }
-.a1, .a2{
+
+.a1, .a2 {
     color: white;
     padding: 0 8px;
 }
 
-.header{
+.header {
     display: flex;
     height: 130px;
     justify-content: space-between;
@@ -43,33 +41,37 @@ header{
     padding-right: 5.2%;
     background-color: rgba(255, 255, 255, .9);
 }
-.logo{
+
+.logo {
     height: 23px;
     width: 193px;
 }
-.nav{
+
+.nav {
     list-style: none;
 }
-nav li{
+
+nav li {
     display: inline-block;
 }
-nav ul li a{
+
+nav ul li a {
     color: black;
     padding: 0 15px;
     font-size: 18px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: red;
     font-size: 17px;
 }
- 
 
-.headerlogo svg:hover{
+.headerlogo svg:hover {
     width: 22px;
     height: auto;
 }
 
-.headerlogo{
+.headerlogo {
     padding: 0 10px;
 }
 .sidebar{
@@ -469,7 +471,7 @@ footer{
 
     .side li a{
         color: black;
-        font-size: 17px;
+        font-size: 15px;
     }
     .side{
         display: flex;
@@ -483,7 +485,7 @@ footer{
     .side li a:hover{
         color: red;
         text-decoration: underline red;
-        font-size: 18px;
+        font-size: 16px;
     }
     
 }
@@ -494,6 +496,7 @@ footer{
         position: relative;
         width: 100%;
         padding: 2% 0;
+        margin-top: 20%;
     }
     .disclaimer div{
         position: absolute;
@@ -566,6 +569,8 @@ footer{
     .review{
         display: grid;
         justify-content: center;
+        margin: 22% 0;
+        padding-left: 5.7%;
     }
 
     .testi{
@@ -682,6 +687,7 @@ footer{
         font-size: 8px;
         padding: 5%;
         color: white;
+        margin-top: 5%;
     }
     
     .f2 ul li{
@@ -785,6 +791,10 @@ footer{
         line-height: 8px;
     }
 
+    .hero{
+        margin-bottom: 15%;
+    }
+    
     .hero div p{
         font-size: 6px;
         line-height: 8px;
@@ -905,68 +915,119 @@ footer{
 
 /* Header */
 
-@media all and (max-width: 640px) {
-
-    .head{
-        font-size: 6px;
+@media all and (max-width: 600px) {
+    .head {
+        flex-direction: row;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 8px;
         color: white;
         background-color: rgba(0, 0, 0, .8);
-        display: flex;
-        padding: 8px 65px;
         justify-content: space-between;
+        
+        
     }
     .a1, .a2{
         color: white;
         padding: 0 8px;
     }
-    
-    .header{
-        display: flex;
-        height: 30px;
-        justify-content: space-between;
-        padding: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        background-color: rgba(255, 255, 255, .9);
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
     }
-    .logo{
-        width: 65px;
-        height: 9px;
-    }
-    .nav{
-        list-style: none;
-    }
-    nav li{
-        display: inline-block;
-    }
-    nav ul li a{
-        color: black;
-        padding: 0 15px;
-        font-size: 11px;
-    }
-    nav ul li a:hover{
-        color: red;
-        font-size: 8px;
-    }
-    .header div a svg{
-        width: 11px;
-        height: 11px;
-    }
-    
-    .headerlogo svg:hover{
-        width: 10px;
+
+    .logo {
+        margin: 7px 0;
+        width: 110px;
         height: auto;
     }
-    
-    .headerlogo{
-        padding: 0 10px;
+
+    .headerlogo svg{
+        width: 15px;
+        height: 15px;
     }
-    
- }
+    .headerlogo svg:hover{
+        width: 16px;
+        height: auto;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .headerlogo {
+        margin: 10px 0;
+    }
+    .nav.active {
+        border-radius: 10px;
+        background-color: rgba(250, 233, 236,0.85); /* Set dropdown menu background color to pink */
+    }
+
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 15px;
+        color: black;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    .header nav .nav li a{
+        font-size: 12px;
+    }
+
+    .menu-toggle.active::before {
+        content: "✕"; /* Cross icon */
+    }
+
+    .menu-toggle:not(.active)::before {
+        content: "☰"; /* Menu icon */
+    }
+
+    /* When nav is visible */
+    .nav.active {
+        display: flex;
+    }
+}
+
+/* Ensure menu button is completely hidden on larger screens */
+@media all and (min-width: 601px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center; /* Center the nav items */
+        flex: 1;
+    }
+
+    nav li {
+        margin: 0 15px; /* Adjust spacing between items */
+    }
+}
 
 
 
-@media (min-width: 641px) and (max-width: 730px) {
+
+
+@media (min-width: 602px) and (max-width: 730px) {
 
     .head{
         font-size: 8px;
@@ -1002,12 +1063,12 @@ footer{
     }
     nav ul li a{
         color: black;
-        padding: 0 15px;
-        font-size: 11px;
+        padding: 0 3px;
+        font-size: 10px;
     }
     nav ul li a:hover{
         color: red;
-        font-size: 10px;
+        font-size: 9px;
     }
     .header div a svg{
         width: 14px;
@@ -1063,16 +1124,16 @@ footer{
     }
     nav ul li a{
         color: black;
-        padding: 0 15px;
-        font-size: 13px;
+        padding: 0 5px;
+        font-size: 12.5px;
     }
     nav ul li a:hover{
         color: red;
         font-size: 12px;
     }
     .header div a svg{
-        width: 17px;
-        height: 17px;
+        width: 15px;
+        height: 15px;
     }
     
     .headerlogo svg:hover{
@@ -1125,7 +1186,7 @@ footer{
     }
     nav ul li a{
         color: black;
-        padding: 0 15px;
+        padding: 0 10px;
         font-size: 15px;
     }
     nav ul li a:hover{
@@ -1133,12 +1194,12 @@ footer{
         font-size: 14px;
     }
     .header div a svg{
-        width: 20px;
-        height: 20px;
+        width: 17px;
+        height: 17px;
     }
     
     .headerlogo svg:hover{
-        width: 19px;
+        width: 18px;
         height: auto;
     }
     
